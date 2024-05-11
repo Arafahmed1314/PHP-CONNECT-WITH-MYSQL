@@ -1,0 +1,28 @@
+.container{
+display: flex;
+flex-direction: column;
+gap: 20px;
+height: fit-content;
+justify-content: center;
+align-items: center;
+background-color: cadetblue;
+width: fit-content;
+margin: 0 auto;
+margin-top: 30px;
+padding: 20px;
+}
+input{
+    padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0;
+  margin-left: 20px;
+}
+button{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+}

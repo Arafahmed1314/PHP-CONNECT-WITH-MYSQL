@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 
 </head>
 
@@ -32,7 +33,7 @@
 //             $model = $number;
 //             echo "this is $model" . '<br/>';
 //         }
-    
+
     //         function phonemodel($number)
 //         {
 //             global $model;
@@ -42,9 +43,9 @@
 //     }
 //     $apple = new phone("apple 15 pro max");
 //     $apple->phonemodel("apple 13 pro max");
-    
+
     //     $arr = array(123, "hello", 5);
-    
+
     //     for ($i = 0; $i < count($arr); $i++) {
 //         echo " " . $arr[$i] . "   ";
 //     }
@@ -71,10 +72,16 @@
 
     <div class="container">
         <form action="/learnPhp/index.php" method="post">
-            <label for="email">Email Address</label>
-            <input type="email" name="email" placeholder="write your email" required>
-            <label for="pass">Password</label>
-            <input type="password" name="pass" placeholder="write your password" required>
+            <div class="box">
+                <label for="email">Email Address</label>
+                <input type="email" name="email" placeholder="write your email" required>
+            </div>
+            <div class="box">
+                <label for="pass">Password</label>
+                <input type="password" name="pass" placeholder="write your password" required>
+            </div>
+
+
             <button type="submit">submit</button>
         </form>
     </div>
