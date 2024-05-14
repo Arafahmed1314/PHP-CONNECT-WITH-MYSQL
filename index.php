@@ -33,7 +33,7 @@
 //             $model = $number;
 //             echo "this is $model" . '<br/>';
 //         }
-
+    
     //         function phonemodel($number)
 //         {
 //             global $model;
@@ -43,9 +43,9 @@
 //     }
 //     $apple = new phone("apple 15 pro max");
 //     $apple->phonemodel("apple 13 pro max");
-
+    
     //     $arr = array(123, "hello", 5);
-
+    
     //     for ($i = 0; $i < count($arr); $i++) {
 //         echo " " . $arr[$i] . "   ";
 //     }
@@ -67,7 +67,7 @@
         echo "data inserted succesfully ";
     } else
         echo "data not inserted succesfully ";
-
+    $conn->close();
     ?>
 
     <div class="container">
